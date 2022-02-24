@@ -1,53 +1,89 @@
 export const projects = [
     {
-      title: "Breaking Bad",
-      subtitle: "Développement d'un site internet static sur le thème Breaking Bad",
+      title: "Logiciel De Gestion",
+      subtitle: "Gestion plannings heures de travail.",
       description:
-        "Ce site a été réalisé lors de ma formation BTS et a été réalisé sur une période de 1 mois",
-      image: "https://cdn.dribbble.com/users/2182473/screenshots/11905465/media/399f5c4faae1996e4b2ffa54463610e0.png",
-      link: "https://reactbootcamp.com",
+        "Ce logiciel de gestion a été réalisé pour l'entreprise Aqua Fermeture. Il permet le suivie en temps réel des heures de travail, des absences, des congés de salarié.",
+      image: "https://user-images.githubusercontent.com/26201045/155594190-32c53c36-c686-40cf-b65e-5e0482e9489a.png",
+      link: "https://demo.com",
+      name: "Aqua Gestion",
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
+      title: "Logiciel De Gestion",
+      subtitle: "Gestion de prise de commande.",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "https://www.goodcore.co.uk/blog/wp-content/webp-express/webp-images/uploads/2019/08/coding-vs-programming-2.jpg.webp",
+      image: "https://user-images.githubusercontent.com/26201045/155595981-104d8aa5-f898-4df5-bac1-c98d86b8ff56.png",
       link: "https://reedbarger.com",
+      name: "Aqua Planning",
+
     },
     {
-      title: "DevChat",
-      subtitle: "React and Firebase",
+      title: "Puissance 4",
+      subtitle: "Puissance 4 Multijoueur Socket.io",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "https://www.goodcore.co.uk/blog/wp-content/webp-express/webp-images/uploads/2019/08/coding-vs-programming-2.jpg.webp",
+        "Puissance 4 réalisé lors de ma formation BTS comprends un mode multijoueurs réalisé avec socket.io un systeme de victoire en plus d'un system de chat.",
+      image: "https://i.ibb.co/bBfB7Q2/puissance.png",
       link: "https://jsbootcamp.com",
+      name: "Puissance 4",
+
     },
     {
       title: "Todo List",
       subtitle: "Application Web Réalisé en laravel",
       description:
         "Application réalisé en laravel, avec une base de données MySQL. Le but est de pouvoir gerer des tâches et s'organiser.",
+      image: "https://i.ibb.co/kSBVW2T/todo.png",
+      link: "#",
+      name: "Todo List",
+
+    },
+    {
+      title: "GSB",
+      subtitle: "Application Laravel GSB",
+      description:
+        "C'est une application qui permet de consulter ses rapports de visite mis en ligne par son praticien.",
+      image: "https://i.ibb.co/nBQCwGs/laravelgsb.png",
+      link: "#",
+      name: "Laravel GSB",
+    },
+    {
+      title: "Note de Frais",
+      subtitle: "Application de gestion de note de frais",
+      description:
+        "Une application de note de frais qui permets le scan d'une note la modification et le stockage dans une BDD.",
       image: "https://www.goodcore.co.uk/blog/wp-content/webp-express/webp-images/uploads/2019/08/coding-vs-programming-2.jpg.webp",
       link: "https://pythonbootcamp.com",
+      name: "Note de frais",
+
     },
+
   ];
   export const skills = [
     {
       name: "HTML/CSS",
     },
+    
     {
       name: "JS/JQUERY",
 
     },
+    
     {
-      name: "PHP/LARAVEL",
+      name: "REACT (JS)"
+    },
+    {
+      name: "LARAVEL (PHP)",
 
     },
     {
-      name: "UNITY/C#",
-
+      name:"Travail en équipe"
     },
+    {
+      name: "Figma",
+
+    }
+    
   ];
   export const testimonials = [
     {

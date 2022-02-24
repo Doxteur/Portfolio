@@ -5,7 +5,7 @@ import { projects } from "../data";
 export default function Projects() {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+      <div className="container px-5 py-10 mx-auto text-center lg">
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
@@ -15,18 +15,19 @@ export default function Projects() {
             Voici une liste d'applications web , de jeux vidéo et de logiciels que j'ai pu développé lors de mes missions, formations ou bien par passe temps.
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-4 ">
           {projects.map((project) => (
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-4">
+              className="lg:w-1/3  w-100 p-4">
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  className="absolute inset-0 w-full h-full object-cover object-center brightness-50 "
                   src={project.image}
                 />
+                <div className="absolute w-full align-middle top-1/2 text-white font-bold text-lg scale-150">{project.name}</div>
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}

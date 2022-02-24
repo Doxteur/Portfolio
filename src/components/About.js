@@ -1,4 +1,11 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// Import Linkedin icon
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+// Import Github icon
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+// Import Twitter icon
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 export default function About() {
   return (
@@ -24,6 +31,19 @@ export default function About() {
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
               Voir mes projets
             </a>
+          </div>
+          <div className="mt-2 ">
+            <a href="https://www.linkedin.com/in/jimmy-doussain-a19b66201/" target="_blank" className="mr-4">
+              <FontAwesomeIcon icon={faLinkedin} size="2x" className="mt-2 text-blue-500 hover:scale-125"/>
+            </a>
+            <a href="https://www.linkedin.com/in/jimmy-doussain-a19b66201/" target="_blank" className="mr-4">
+              <FontAwesomeIcon icon={faGithub} size="2x" className="mt-2 text-white hover:scale-125"/>
+            </a>
+            <a href="https://www.linkedin.com/in/jimmy-doussain-a19b66201/" target="_blank" className="mr-4">
+              <FontAwesomeIcon icon={faTwitter} size="2x" className="mt-2 text-blue-400 hover:scale-125"/>
+            </a>
+
+
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
