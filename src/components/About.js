@@ -36,7 +36,7 @@ export default function About() {
             <a href="https://www.linkedin.com/in/jimmy-doussain-a19b66201/" target="_blank" className="mr-4">
               <FontAwesomeIcon icon={faLinkedin} size="2x" className="mt-2 text-blue-500 hover:scale-125"/>
             </a>
-            <a href="https://www.linkedin.com/in/jimmy-doussain-a19b66201/" target="_blank" className="mr-4">
+            <a href="https://github.com/Doxteur" target="_blank" className="mr-4">
               <FontAwesomeIcon icon={faGithub} size="2x" className="mt-2 text-white hover:scale-125"/>
             </a>
             <a href="https://www.linkedin.com/in/jimmy-doussain-a19b66201/" target="_blank" className="mr-4">

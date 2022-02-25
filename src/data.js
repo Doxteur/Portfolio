@@ -82,7 +82,12 @@ export const projects = [
     {
       name: "Figma",
 
-    }
+    },
+    {
+      name: "Git",
+    }  
+      
+    
     
   ];
   export const testimonials = [
