@@ -20,11 +20,13 @@ export default function Navbar() {
           <a href="#testimonials" className="mr-5 hover:text-white">
             Témoignages
           </a>
+         
+          
         </nav>
         <a
-          href="#contact"
+          href="/JimmyCv.pptx"
           className="inline-flex items-center bg-green-600 border-0 py-1 px-3 focus:outline-none hover:bg-green-800 rounded text-white mt-4 md:mt-0">
-          Me contacter
+          Mon CV
           <ArrowRightIcon className="w-4 h-4 ml-1" />
         </a>
       </div>
