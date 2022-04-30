@@ -20,14 +20,14 @@ export default function Info() {
         </div>
         <div>
           <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2 justify-evenly">
-          <a href="/Compétence.pptx">
-            <button type="button" class="btn btn-success hover:scale-105">
-              Mon portefeuille de compétences
-            </button>
-        </a>
             <a href="/JimmyCv.pptx">
               <button type="button" class="btn btn-warning hover:scale-105">
                 Mon CV
+              </button>
+            </a>
+            <a href="/Compétence.pptx">
+              <button type="button" class="btn btn-success hover:scale-105">
+                Mon portefeuille de compétences
               </button>
             </a>
           </div>

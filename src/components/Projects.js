@@ -12,22 +12,26 @@ export default function Projects() {
             Mes applications
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Voici une liste d'applications web , de jeux vidéo et de logiciels que j'ai pu développé lors de mes missions, formations ou bien par passe temps.
+            Voici une liste d'applications web , de jeux vidéo et de logiciels
+            que j'ai pu développé lors de mes missions, formations ou bien par
+            passe temps.
           </p>
         </div>
         <div className="flex flex-wrap -m-4 ">
           {projects.map((project) => (
             <a
-              href={project.link}
               key={project.image}
-              className="lg:w-1/3  w-100 p-4">
+              className="lg:w-1/3  w-100 p-4"
+            >
               <div className="flex relative">
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center brightness-50 "
                   src={project.image}
                 />
-                <div className="absolute w-80 align-middle top-1/2 text-white font-bold text-lg scale-150">{project.name}</div>
+                <div className="absolute w-80 align-middle top-1/2 text-white font-bold text-lg scale-150">
+                  {project.name}
+                </div>
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
@@ -36,6 +40,15 @@ export default function Projects() {
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
+                  <div className="mt-4">
+                    {/* If refcode is disabled set a to disabled */}
+                    {project.refcode == "private" ? (
+                      <a name="" id="" className="btn btn-error mx-2 font-bold text-base disabled hover:scale-105">Privée</a>
+                    ) : (
+                      <a name="" id="" className="btn btn-success  mx-2 font-bold text-base hover:scale-105" href={project.refcode} role="button" target="_blank">Code</a>
+                      )}
+                      <a name="" id="" className="btn btn-warning mx-2 font-bold text-base hover:scale-105" href={project.reflive} role="button" target="_blank">Live</a>
+                  </div>
                 </div>
               </div>
             </a>

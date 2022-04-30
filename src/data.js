@@ -5,8 +5,9 @@ export const projects = [
       description:
         "Ce logiciel de gestion a été réalisé pour l'entreprise Aqua Fermeture. Il permet le suivie en temps réel des heures de travail, des absences, des congés de salarié.",
       image: "https://user-images.githubusercontent.com/26201045/155594190-32c53c36-c686-40cf-b65e-5e0482e9489a.png",
-      link: "https://demo.com",
       name: "Aqua Gestion",
+      refcode: "private",
+      reflive: "https://www.google.fr",
     },
     {
       title: "Logiciel De Gestion",
@@ -16,7 +17,8 @@ export const projects = [
       image: "https://user-images.githubusercontent.com/26201045/155595981-104d8aa5-f898-4df5-bac1-c98d86b8ff56.png",
       link: "https://reedbarger.com",
       name: "Aqua Planning",
-
+      refcode: "private",
+      reflive: "https://www.google.fr",
     },
     {
       title: "Puissance 4",
@@ -26,7 +28,8 @@ export const projects = [
       image: "https://i.ibb.co/bBfB7Q2/puissance.png",
       link: "https://jsbootcamp.com",
       name: "Puissance 4",
-
+      refcode: "https://github.com/Doxteur/Puissance4Js_Multi",
+      reflive: "https://puissance4-multi.herokuapp.com/",
     },
     {
       title: "Todo List",
@@ -34,9 +37,9 @@ export const projects = [
       description:
         "Application réalisé en laravel, avec une base de données MySQL. Le but est de pouvoir gerer des tâches et s'organiser.",
       image: "https://i.ibb.co/kSBVW2T/todo.png",
-      link: "#",
       name: "Todo List",
-
+      refcode: "https://github.com/Doxteur/TodoLaravel",
+      reflive: "https://www.google.fr",
     },
     {
       title: "GSB",
@@ -44,8 +47,9 @@ export const projects = [
       description:
         "C'est une application qui permet de consulter ses rapports de visite mis en ligne par son praticien.",
       image: "https://i.ibb.co/nBQCwGs/laravelgsb.png",
-      link: "#",
       name: "Laravel GSB",
+      refcode: "https://github.com/Doxteur/Laravel_GSB",
+      reflive: "https://www.google.fr",
     },
     {
       title: "Note de Frais",
@@ -53,8 +57,9 @@ export const projects = [
       description:
         "Une application de note de frais qui permets le scan d'une note la modification et le stockage dans une BDD.",
       image: "https://www.goodcore.co.uk/blog/wp-content/webp-express/webp-images/uploads/2019/08/coding-vs-programming-2.jpg.webp",
-      link: "https://pythonbootcamp.com",
       name: "Note de frais",
+      refcode: "private",
+      reflive: "https://www.google.fr",
 
     },
 
