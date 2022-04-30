@@ -77,15 +77,17 @@ export const projects = [
 
     },
     {
-      name:"Travail en équipe"
-    },
+      name: "Git",
+    },  
     {
       name: "Figma",
 
     },
     {
-      name: "Git",
-    }  
+      name:"Travail en équipe"
+    }
+    
+    
       
     
     
