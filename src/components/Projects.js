@@ -17,8 +17,17 @@ export default function Projects() {
             passe temps.
           </p>
         </div>
+        <div className="m-6">
+          {/* On click set variable type to web */}
+          <button onClick={() => setType("Web")} className="btn btn-warning">Web</button>
+          <button onClick={() => setType("App")} className="btn btn-warning">Application</button>
+          <button onClick={() => setType("Game")} className="btn btn-warning">Jeux</button>
+          
+        </div>
         <div className="flex flex-wrap -m-4 ">
           {projects.map((project) => (
+            // if project.type = web then alert
+                                
             <a
               key={project.image}
               className="lg:w-1/3  w-100 p-4"
@@ -46,8 +55,8 @@ export default function Projects() {
                       <a name="" id="" className="btn btn-error mx-2 font-bold text-base disabled hover:scale-105">Privée</a>
                     ) : (
                       <a name="" id="" className="btn btn-success  mx-2 font-bold text-base hover:scale-105" href={project.refcode} role="button" target="_blank">Code</a>
-                      )}
-                      <a name="" id="" className="btn btn-warning mx-2 font-bold text-base hover:scale-105" href={project.reflive} role="button" target="_blank">Live</a>
+                    )}
+                    <a name="" id="" className="btn btn-warning mx-2 font-bold text-base hover:scale-105" href={project.reflive} role="button" target="_blank">Live</a>
                   </div>
                 </div>
               </div>
@@ -55,6 +64,11 @@ export default function Projects() {
           ))}
         </div>
       </div>
+      
     </section>
   );
+}
+
+function setType(type) {
+  
 }

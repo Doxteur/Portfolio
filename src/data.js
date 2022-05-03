@@ -8,6 +8,7 @@ export const projects = [
       name: "Aqua Gestion",
       refcode: "private",
       reflive: "https://www.google.fr",
+      type:"App",
     },
     {
       title: "Logiciel De Gestion",
@@ -19,6 +20,8 @@ export const projects = [
       name: "Aqua Planning",
       refcode: "private",
       reflive: "https://www.google.fr",
+      type:"App",
+
     },
     {
       title: "Puissance 4",
