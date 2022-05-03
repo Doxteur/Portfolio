@@ -4,11 +4,11 @@ export const projects = [
       subtitle: "Gestion plannings heures de travail.",
       description:
         "Ce logiciel de gestion a été réalisé pour l'entreprise Aqua Fermeture. Il permet le suivie en temps réel des heures de travail, des absences, des congés de salarié.",
-      image: "https://user-images.githubusercontent.com/26201045/155594190-32c53c36-c686-40cf-b65e-5e0482e9489a.png",
-      name: "Aqua Gestion",
+        image: "https://user-images.githubusercontent.com/26201045/155595981-104d8aa5-f898-4df5-bac1-c98d86b8ff56.png",
+        name: "Aqua Gestion",
       refcode: "private",
       reflive: "https://www.google.fr",
-      type:"App",
+      type:"Web",
     },
     {
       title: "Logiciel De Gestion",
@@ -33,6 +33,8 @@ export const projects = [
       name: "Puissance 4",
       refcode: "https://github.com/Doxteur/Puissance4Js_Multi",
       reflive: "https://puissance4-multi.herokuapp.com/",
+      type:"Game",
+
     },
     {
       title: "Todo List",

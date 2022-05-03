@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import "./projects.css";
 
 import React from "react";
 import About from "./components/About";
