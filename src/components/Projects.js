@@ -5,13 +5,24 @@ import { projects } from "../data";
 export default function Projects() {
 
   const [myType, setmyType] = React.useState('Web');
-  function changeType(e){
+  const [myColor,setmyColor] = React.useState()
+
+  
+  const changeType = (e,z) =>{
+    // Remove other red background
+    document.querySelectorAll('.selector').forEach(element => {
+      element.style.backgroundColor = "initial";
+      element.style.color = "inherit";
+    });
+    // Set clicked to bkacground
+    z.target.style.color = "#101827";
+    z.target.style.backgroundColor = "#c7c7c7";
     setmyType(e);
   }
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg">
-        <div className="flex flex-col w-full mb-20">
+        <div className="flex flex-col w-full mb-14">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Mes applications
@@ -22,16 +33,16 @@ export default function Projects() {
             passe temps.
           </p>
         </div>
-        <div className="m-6">
+        <div className="mb-14">
           {/* On click set variable type to web */}
-          <button onClick={changeType.bind(this,'Web')}>Web</button>
-          <button onClick={changeType.bind(this,'Game')}>Game</button>
-          <button onClick={changeType.bind(this,'App')}>App</button>
+          <button onClick={changeType.bind(this,'Web')} className="selector rounded p-4 text-black" style={{backgroundColor: '#c7c7c7'}}>Web</button>
+          <button onClick={changeType.bind(this,'Game')} className="selector rounded p-4">Game</button>
+          <button onClick={changeType.bind(this,'App')} className="selector rounded p-4">App</button>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-4 scale-90">
           {projects.filter(project => project.type == myType).map((project) => (
             // Setup Key
-            <a key={project.image} className="lg:w-1/3  w-100 p-4">
+            <h1 key={project.image} className="lg:w-1/3  w-100 p-4">
               <div className="flex relative">
                 <img
                   alt="gallery"
@@ -60,7 +71,7 @@ export default function Projects() {
                   </div>
                 </div>
               </div>
-            </a>
+            </h1>
           ))}
         </div>
       </div>

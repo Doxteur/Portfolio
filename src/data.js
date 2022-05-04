@@ -4,8 +4,8 @@ export const projects = [
       subtitle: "Gestion plannings heures de travail.",
       description:
         "Ce logiciel de gestion a été réalisé pour l'entreprise Aqua Fermeture. Il permet le suivie en temps réel des heures de travail, des absences, des congés de salarié.",
-        image: "https://user-images.githubusercontent.com/26201045/155595981-104d8aa5-f898-4df5-bac1-c98d86b8ff56.png",
-        name: "Aqua Gestion",
+      image: "https://user-images.githubusercontent.com/26201045/155595981-104d8aa5-f898-4df5-bac1-c98d86b8ff56.png",
+      name: "Aqua Gestion",
       refcode: "private",
       reflive: "https://www.google.fr",
       type:"Web",
@@ -15,12 +15,12 @@ export const projects = [
       subtitle: "Gestion de prise de commande.",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "https://user-images.githubusercontent.com/26201045/155595981-104d8aa5-f898-4df5-bac1-c98d86b8ff56.png",
+      image: "aquaCalendar.png",
       link: "https://reedbarger.com",
       name: "Aqua Planning",
       refcode: "private",
       reflive: "https://www.google.fr",
-      type:"App",
+      type:"Web",
 
     },
     {
@@ -45,6 +45,8 @@ export const projects = [
       name: "Todo List",
       refcode: "https://github.com/Doxteur/TodoLaravel",
       reflive: "https://www.google.fr",
+      type:"Web",
+
     },
     {
       title: "GSB",
@@ -55,18 +57,43 @@ export const projects = [
       name: "Laravel GSB",
       refcode: "https://github.com/Doxteur/Laravel_GSB",
       reflive: "https://www.google.fr",
+      type:"Web",
+
     },
     {
       title: "Note de Frais",
       subtitle: "Application de gestion de note de frais",
       description:
         "Une application de note de frais qui permets le scan d'une note la modification et le stockage dans une BDD.",
-      image: "https://www.goodcore.co.uk/blog/wp-content/webp-express/webp-images/uploads/2019/08/coding-vs-programming-2.jpg.webp",
+      image: "aquaN2F.png",
       name: "Note de frais",
       refcode: "private",
       reflive: "https://www.google.fr",
-
+      type:"Web",
     },
+    {
+      title: "Portfolio",
+      subtitle: "Site Web Portfolio",
+      description:
+        "Mon site web portfolio réalisé en react js.",
+      image: "portfo.png",
+      name: "Portfolio",
+      refcode: "private",
+      reflive: "https://www.jimmydoussain.fr/",
+      type:"Web",
+    },
+    {
+      title: "Knowledge Quest",
+      subtitle: "Jeux réalisé lors d'une Game Jam",
+      description:
+        "Ce jeux a été dévelopé lors d'une game jam de 78H se nommant Jamingtons 8.0. Le jeux est arrivé 6 eme sur 61.",
+      image: "https://img.itch.zone/aW1nLzMyMzQ2NTUucG5n/347x500/4qnTOA.png",
+      name: "Knowledge Quest",
+      refcode: "private",
+      reflive: "https://doxteur.itch.io/knowledge-quest",
+      type:"Game",
+    },
+    
 
   ];
   export const skills = [
