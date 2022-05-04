@@ -130,7 +130,7 @@ export const projects = [
   ];
   export const skills = [
     {
-      name: "HTML/CSS",
+      name: "HTML/CSS | Tailwind CSS",
     },
     
     {
