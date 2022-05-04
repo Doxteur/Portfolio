@@ -125,6 +125,16 @@ export const projects = [
       refcode: "private",
       reflive: "https://simmer.io/@Doxteur/buildgenerationmapscroltoseeplayer",
       type:"App",
+    },{
+      title: "FightFarmers",
+      subtitle: "Script Unity",
+      description:
+        "Jeux realisé lors de la game jam de Saint Sauveur Premiere Edition en équipe de 4.",
+      image: "fight.png",
+      name: "FightFarmers",
+      refcode: "private",
+      // reflive: "https://simmer.io/@Doxteur/buildgenerationmapscroltoseeplayer",
+      type:"Game",
     },
 
   ];

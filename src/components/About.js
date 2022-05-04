@@ -17,8 +17,7 @@ export default function About() {
             <br className="hidden lg:inline-block" />Développeur web .
           </h1>
           <p className="mb-8 leading-relaxed">
-            Je me présente je m'appelle jimmy doussain je suis Développeur web. J'aime créer
-            de nouvelles applications web et je suis passionné par le développement web.
+            Je me présente je m'appelle jimmy doussain, je suis Développeur web. Je suis passionné par le développement de site web ,de jeux vidéo, et par le future de l'informatique en général (IA, BIG DATA etc...).
           </p>
           <div className="flex justify-center">
             <a
