@@ -14,7 +14,7 @@ export const projects = [
       title: "Logiciel De Gestion",
       subtitle: "Gestion de prise de commande.",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Ce logiciel permet de gerer les emploies du temps ainsi que les congés des salariés de l'entreprise Aqua Fermeture.",
       image: "aquaCalendar.png",
       link: "https://reedbarger.com",
       name: "Aqua Planning",
@@ -64,7 +64,7 @@ export const projects = [
       title: "Note de Frais",
       subtitle: "Application de gestion de note de frais",
       description:
-        "Une application de note de frais qui permets le scan d'une note la modification et le stockage dans une BDD.",
+        "Une application de note de frais qui permet le scan d'une note la modification et le stockage dans une BDD.",
       image: "aquaN2F.png",
       name: "Note de frais",
       refcode: "private",
@@ -78,7 +78,7 @@ export const projects = [
         "Mon site web portfolio réalisé en react js.",
       image: "portfo.png",
       name: "Portfolio",
-      refcode: "private",
+      refcode: "https://github.com/Doxteur/Portfolio",
       reflive: "https://www.jimmydoussain.fr/",
       type:"Web",
     },
@@ -93,7 +93,39 @@ export const projects = [
       reflive: "https://doxteur.itch.io/knowledge-quest",
       type:"Game",
     },
-    
+    {
+      title: "Survivy",
+      subtitle: "Jeux Unity en 48H",
+      description:
+        "Jeux de surive réalisé sur unity en 48H.",
+      image: "surv.png",
+      name: "Survivy",
+      refcode: "private",
+      reflive: "https://simmer.io/@Doxteur/buildgenerationmapscroltoseeplayer",
+      type:"Game",
+    },
+    {
+      title: "Slymi",
+      subtitle: "Jeux Unity en 48H",
+      description:
+        "Jeux de parkour réalisé sur unity en 48H.",
+      image: "slym.png",
+      name: "Slymi",
+      refcode: "private",
+      reflive: "https://simmer.io/@Doxteur/slymi",
+      type:"Game",
+    },
+    {
+      title: "Génération Terrain",
+      subtitle: "Script Unity",
+      description:
+        "Script de génération de terrain aléatoire sur unity.",
+      image: "terraingen.png",
+      name: "Génération Terrain",
+      refcode: "private",
+      reflive: "https://simmer.io/@Doxteur/buildgenerationmapscroltoseeplayer",
+      type:"App",
+    },
 
   ];
   export const skills = [
@@ -112,6 +144,9 @@ export const projects = [
     {
       name: "LARAVEL (PHP)",
 
+    },
+    {
+      name:"Unity/C#",
     },
     {
       name: "Git",
