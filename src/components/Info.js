@@ -25,7 +25,7 @@ export default function Info() {
                 Mon CV
               </button>
             </a>
-            <a href="/pc.xlsx">
+            <a href="/pc.xlsx" rel="_blank">
               <button type="button" className="btn btn-success hover:scale-105">
                 Mon portefeuille de compétences
               </button>
